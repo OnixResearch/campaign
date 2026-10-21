@@ -1,0 +1,8 @@
+[package]
+name = "campaign-profile"
+
+[dependencies]
+campaign-core.workspace = true
+serde = "1"
+serde_json = "1"
+rusqlite = "0.37"

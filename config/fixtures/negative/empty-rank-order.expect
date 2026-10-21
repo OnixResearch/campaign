@@ -1,0 +1,2 @@
+error: contract broken by the value of `rank_order`
+campaign contract: rank order must be a non-empty array of unique rank indices

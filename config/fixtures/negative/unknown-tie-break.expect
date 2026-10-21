@@ -1,0 +1,2 @@
+error: contract broken by the value of `tie_break`
+campaign contract: selection.tie_break must be one of the declared enum tags

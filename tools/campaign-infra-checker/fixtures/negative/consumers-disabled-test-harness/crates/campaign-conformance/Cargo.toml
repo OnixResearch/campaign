@@ -1,0 +1,12 @@
+[package]
+name = "campaign-conformance"
+
+[lib]
+test = false
+
+[dependencies]
+campaign-core.workspace = true
+campaign-choregraph = { path = "../campaign-choregraph", default-features = false }
+
+[dev-dependencies]
+choregraph-history.workspace = true

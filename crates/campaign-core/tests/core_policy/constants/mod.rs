@@ -1,0 +1,17 @@
+pub(crate) const BUDGET_TOTAL: u64 = 8;
+pub(crate) const BUDGET_SMALL: u64 = 1;
+pub(crate) const BOUND_MANY: u64 = 16;
+pub(crate) const BOUND_OUTSTANDING_ONE: u64 = 1;
+pub(crate) const DEPTH_ROOT_CHILD: u64 = 1;
+pub(crate) const COST_ONE: u64 = 1;
+pub(crate) const GENERATION_CURRENT: u64 = 7;
+pub(crate) const GENERATION_NEXT: u64 = 2;
+pub(crate) const RANK_LOW: i64 = 10;
+pub(crate) const RANK_HIGH: i64 = 20;
+pub(crate) const RANK_OTHER: i64 = 11;
+pub(crate) const ENTROPY_COUNTER: u64 = 5;
+pub(crate) const ENTROPY_ALWAYS: u64 = campaign_core::ENTROPY_SCALE;
+pub(crate) const FIRST_BYTE_INDEX_ONE: u8 = 1;
+pub(crate) const FIRST_BYTE_INDEX_ZERO: u8 = 0;
+pub(crate) const RANK_MAGNITUDE: u64 = 1_000_000;
+pub(crate) const FIRST_RANK_DIMENSION: u32 = 0;

@@ -1,0 +1,9 @@
+[package]
+name = "campaign-infra-checker"
+
+[dependencies]
+toml = "0.9.7"
+
+[[example]]
+name = "topology"
+path = "../../../universal-weave/examples/topology.rs"

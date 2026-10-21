@@ -1,0 +1,2 @@
+error: contract broken by a value
+campaign contract: bounds.maximum_control_events must leave room for the admission event and a stop

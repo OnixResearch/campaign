@@ -1,0 +1,13 @@
+version = 4
+
+[[package]]
+name = "campaign-core"
+version = "0.1.0"
+dependencies = [
+ "blake3",
+]
+
+[[package]]
+name = "choregraph-history"
+version = "0.1.0"
+source = "git+https://git.onix.computer/zL2ncTUeASVYwcoGkEXv9JKgGbAF.git?rev=0809c9f10ba48b8ae0192ab3a29ff4c5b335e56e#0809c9f10ba48b8ae0192ab3a29ff4c5b335e56e"

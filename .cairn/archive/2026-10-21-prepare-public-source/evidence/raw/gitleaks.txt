@@ -1,0 +1,16 @@
+gitleaks 8.30.1
+== tree: git archive 6dc0c59a0c5a8cbffbad68956eb12c816e4fd197
+INF scanned ~4509088 bytes (4.51 MB) in 199ms
+INF no leaks found
+report: []
+== publication set: git rev-list 6dc0c59a0c5a8cbffbad68956eb12c816e4fd197 (98 commits)
+INF Unknown SCM platform. Use --platform to include links in findings. host=z2scC9MCm3pxk9mX4FEidRKabQ5LN
+INF 95 commits scanned.
+INF scanned ~5686109 bytes (5.69 MB) in 302ms
+INF no leaks found
+report: []
+== all local refs: git rev-list --all (1064 commits)
+INF 644 commits scanned.
+INF scanned ~138447867 bytes (138.45 MB) in 6.52s
+INF no leaks found
+report: []

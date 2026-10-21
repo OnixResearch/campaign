@@ -1,0 +1,2 @@
+error: contract broken by the value of `exploratory_threshold_parts_per_million`
+campaign contract: exploratory_threshold_parts_per_million must be an integer in 0..=1000000

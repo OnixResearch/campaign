@@ -1,0 +1,2 @@
+error: contract broken by the value of `decay`
+campaign contract: selection.decay declares penalty_per_selection iff rule is 'subtract_from_first_rank

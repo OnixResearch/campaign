@@ -1,0 +1,2 @@
+error: contract broken by a value
+campaign contract: selection.exploration_order must be declared iff selection.mode is 'exploratory

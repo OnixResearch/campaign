@@ -1,0 +1,2 @@
+error: contract broken by a value
+campaign contract: bounds.maximum_retained_candidates must not exceed bounds.maximum_candidates

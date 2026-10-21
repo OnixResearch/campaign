@@ -1,0 +1,6 @@
+[package]
+name = "campaign-infra-checker"
+
+[dependencies]
+toml = "0.9.7"
+rand_core = { version = "0.9", features = ["os_rng"] }

@@ -1,0 +1,9 @@
+# Campaign uses the complete Octet lint catalog.
+# Keep this file consumer-owned and intentionally empty: no disabled lints,
+# no downgraded levels, and no rollout baseline. The official octet-deny-all
+# hook and Nix check promote every Octet lint to deny.
+[octet]
+core_source_scopes = [
+  "crates/campaign-core/src/",
+  "crates/campaign-choregraph/src/",
+]

@@ -1,0 +1,47 @@
+{
+  "decision": "approved",
+  "findings": [
+    {
+      "category": "omission",
+      "id": "final-candidate-byte-comparison",
+      "severity": "low",
+      "summary": "Repeat the changed-path and license-only comparisons on the final candidate and report them in the handoff."
+    },
+    {
+      "category": "omission",
+      "id": "final-markdown-scan-hit",
+      "severity": "low",
+      "summary": "Classify the final-candidate /home/ hits: final-gate.md:17 is the declared exception; design.md and verification.md carry scan-pattern text."
+    },
+    {
+      "category": "incoherent",
+      "id": "tool-bundle-provenance",
+      "severity": "low",
+      "summary": "Record the tool bundle store path and the nixpkgs revision it was built from."
+    }
+  ],
+  "review_kind": "plan",
+  "reviewed_inputs": [
+    {
+      "hash": "875234df597978cf4ac56f227084f459df36e964243a19ed25e1771b326fa567",
+      "path": "proposal.md"
+    },
+    {
+      "hash": "c47ff5b8781794137b9332567504b24ceb411f8525af40fb7e89d9b0426ee412",
+      "path": "design.md"
+    },
+    {
+      "hash": "7ada1f6e47f2c6275d18e676191bfbaae5df2cfbc9a6c6a1e13d395aa85c5163",
+      "path": "acceptance.md"
+    },
+    {
+      "hash": "1efe01dd7655d26f8218aed4e752bd347f8e870a7323c637a99b82d149c3355a",
+      "path": "tasks.md"
+    }
+  ],
+  "reviewer": {
+    "id": "omp-reviewer-prepare-public-source-plan",
+    "source": "agentic"
+  },
+  "schema_version": "cairn.semantic-review.review-receipt.v1"
+}

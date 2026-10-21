@@ -1,0 +1,19 @@
+[package]
+name = "campaign-choregraph"
+description = "no_std adapter between Campaign policy values and pinned Choregraph history"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+campaign-core.workspace = true
+choregraph-history.workspace = true

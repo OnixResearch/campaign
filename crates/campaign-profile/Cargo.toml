@@ -1,0 +1,20 @@
+[package]
+name = "campaign-profile"
+description = "strict loader for the exported campaign.profile.v2 runtime profile"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+campaign-core.workspace = true
+serde = { version = "1.0.229", default-features = false, features = ["std", "derive"] }
+serde_json = { version = "1.0.151", default-features = false, features = ["std"] }

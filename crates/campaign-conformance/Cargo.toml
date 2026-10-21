@@ -1,0 +1,22 @@
+[package]
+name = "campaign-conformance"
+description = "reusable Campaign conformance port with named positive and negative fixtures"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+campaign-core.workspace = true
+campaign-choregraph = { path = "../campaign-choregraph", default-features = false }
+
+[dev-dependencies]
+campaign-profile = { path = "../campaign-profile" }

@@ -1,0 +1,2 @@
+error: contract broken by the value of `dependency_status`
+campaign contract: choregraph.dependency_status must equal the pinned value published-pinned

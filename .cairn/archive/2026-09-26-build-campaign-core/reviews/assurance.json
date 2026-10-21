@@ -1,0 +1,36 @@
+{
+  "schema_version": "cairn.semantic-review.review-receipt.v1",
+  "review_kind": "plan",
+  "decision": "approved",
+  "reviewed_inputs": [
+    {
+      "path": "proposal.md",
+      "hash": "712c24bfed18c1a16fad474dbe40bc2d615cc3996f69486e8359b2f3660616e7"
+    },
+    {
+      "path": "specs/campaign/spec.md",
+      "hash": "9a299ad7ad8dbedfd6258a1fd1be73a067201bda16e2e77e17e4812f2bbce267"
+    },
+    {
+      "path": "design.md",
+      "hash": "bce31a49d8f0c5dbd97dfac796d9e9eab5f312d290c4285b0f253a8af8555b4a"
+    },
+    {
+      "path": "risk.md",
+      "hash": "0d88220feac6b4b8a4051945befe26fa8e6cb0977e77f7ee4c21d7de305a54c4"
+    },
+    {
+      "path": "tasks.md",
+      "hash": "e772bae4f5d9acfdeb34a24433b9429ca1d951afefee77bb55b5eb3bf9d34ac7"
+    },
+    {
+      "path": "verification.md",
+      "hash": "c0ffb2f77a785df84d18db73fd30f5376b00210c437684574a26ba1d25d65c56"
+    }
+  ],
+  "reviewer": {
+    "source": "agentic",
+    "id": "campaign-build-campaign-core-plan-review-20260926"
+  },
+  "findings": []
+}

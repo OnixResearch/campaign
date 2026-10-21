@@ -1,0 +1,9 @@
+[package]
+name = "campaign-core"
+
+[dependencies]
+blake3.workspace = true
+universal-weave = "0.1"
+
+[dev-dependencies]
+proptest = "1"

@@ -1,0 +1,2 @@
+[target.'cfg(all())']
+rustflags = ["--extern", "topology=../universal-weave/target/release/libuniversal_weave.rlib"]

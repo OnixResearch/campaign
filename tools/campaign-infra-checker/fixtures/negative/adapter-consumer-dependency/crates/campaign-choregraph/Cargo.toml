@@ -1,0 +1,7 @@
+[package]
+name = "campaign-choregraph"
+
+[dependencies]
+campaign-core.workspace = true
+choregraph-history.workspace = true
+chaoscontrol-explore = "0.1"

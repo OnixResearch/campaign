@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/OnixResearch/octet
+    rev: 890f424cd7b1b2015f39c0eb5747f1bd1e576028
+    hooks:
+      - id: octet-deny-all
+        args: ["--workspace", "--", "--all-targets", "--all-features"]

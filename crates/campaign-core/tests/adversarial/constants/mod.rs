@@ -1,0 +1,11 @@
+pub(crate) const RESOURCE_BUDGET_TOTAL: u64 = 3;
+pub(crate) const RESOURCE_BUDGET_PAIR: u64 = 2;
+pub(crate) const BOUND_MANY: u64 = 16;
+pub(crate) const BOUND_ONE: u64 = 1;
+pub(crate) const CURRENT_GENERATION: u64 = 11;
+pub(crate) const CANDIDATE_DEPTH: u64 = 1;
+pub(crate) const COST_ONE: u64 = 1;
+pub(crate) const COST_TWO: u64 = 2;
+pub(crate) const RANK_VALID: i64 = 40;
+pub(crate) const GUIDANCE_GENERATION: u64 = 1;
+pub(crate) const RANK_MAGNITUDE: u64 = 1_000_000;

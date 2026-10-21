@@ -1,0 +1,29 @@
+{
+  "choregraph": {
+    "dependency_status": "published-pinned",
+    "git_url": "https://git.onix.computer/zL2ncTUeASVYwcoGkEXv9JKgGbAF.git",
+    "history_revision": "b3e08e19750f53bdbcae970cdf58a47a791ed20b",
+    "required_history_schema": "choregraph-history.branchable.v1",
+    "selected_full_revision": "b3e08e19750f53bdbcae970cdf58a47a791ed20b",
+    "source_store_path": "/nix/store/v8h6nyhc04rl657z1l8mdanw42x26dlc-source"
+  },
+  "consumers": [
+    "chaoscontrol",
+    "fixture-adapter"
+  ],
+  "core_mode": "no_std + alloc",
+  "license": "AGPL-3.0-or-later",
+  "name": "campaign",
+  "non_claims": [
+    "A selection decision does not prove that an action started or completed.",
+    "A Campaign receipt does not prove exhaustive search, event truth, operation success, replay success, finding correctness, authorization, or release readiness.",
+    "Campaign does not own generic history, action execution, persistence, retries, snapshots, domain guidance, or consumer evidence."
+  ],
+  "packages": [
+    "campaign-core",
+    "campaign-choregraph",
+    "campaign-conformance"
+  ],
+  "primary_exploration_source_revision": "e1dcf2552132221085967250cbc5cb00559e8757",
+  "schema": "campaign.repository.v4"
+}

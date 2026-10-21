@@ -1,0 +1,9 @@
+{
+  "spec_effect": "none",
+  "spec_effect_rationale": "Prepare Campaign's source tree for public hosting by changing the owned-source license to AGPL-3.0-or-later with a NOTICE and a pinned configuration contract value, and by documenting credential-free checks, private prerequisites, and public references. No accepted requirement in the campaign or frontier-operational-discipline specs concerns the repository license, README content, or public acquisition. Rust code, dependency revisions, lockfiles, source inventory records, APIs, and consumer pins do not change.",
+  "workflow_profile": {
+    "id": "no-spec-delta",
+    "source": "change_create",
+    "version": 1
+  }
+}

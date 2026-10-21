@@ -1,0 +1,2 @@
+error: contract broken by a value
+campaign contract: selection.exploratory_threshold_parts_per_million must be declared iff selection.mode is 'exploratory

@@ -1,0 +1,40 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/campaign-core",
+  "crates/campaign-choregraph",
+  "crates/campaign-conformance",
+  "crates/campaign-profile",
+  "tools/campaign-infra-checker",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.96.0"
+license = "AGPL-3.0-or-later"
+repository = "https://git.onix.computer/z2scC9MCm3pxk9mX4FEidRKabQ5LN.git"
+publish = false
+
+[workspace.dependencies]
+campaign-core = { path = "crates/campaign-core", default-features = false }
+choregraph-history = { git = "https://git.onix.computer/zL2ncTUeASVYwcoGkEXv9JKgGbAF.git", rev = "b3e08e19750f53bdbcae970cdf58a47a791ed20b", default-features = false }
+blake3 = { version = "1.8.2", default-features = false }
+proptest = { version = "1.11.0", default-features = false, features = ["std"] }
+
+[workspace.metadata.octet]
+default_scope = ["--workspace"]
+cargo_check_args = ["--all-targets", "--all-features"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+missing_docs = "deny"
+unexpected_cfgs = { level = "deny", check-cfg = ['cfg(dylint_lib, values("octet"))'] }
+
+[workspace.lints.clippy]
+all = { level = "deny", priority = -1 }
+pedantic = { level = "deny", priority = -1 }
+unwrap_used = "deny"
+expect_used = "deny"
+panic = "deny"
+module_name_repetitions = "allow"

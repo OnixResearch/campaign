@@ -1,0 +1,13 @@
+== github:OnixResearch/cairn/5d5aa7dfc02e6cfd076a18c54b09954d23e29f2b
+exit=1
+       error: Failed to open archive (Source threw exception: error: unable to download 'https://github.com/OnixResearch/cairn/archive/5d5aa7dfc02e6cfd076a18c54b09954d23e29f2b.tar.gz': HTTP error 404
+              response body:
+              Not Found)
+== github:OnixResearch/octet/890f424cd7b1b2015f39c0eb5747f1bd1e576028
+exit=1
+       error: Failed to open archive (Source threw exception: error: unable to download 'https://github.com/OnixResearch/octet/archive/890f424cd7b1b2015f39c0eb5747f1bd1e576028.tar.gz': HTTP error 404
+              response body:
+              Not Found)
+== github:NixOS/nixpkgs/c043004d1c6985732bcc1cbc5a9c9aecbbb4e0f0
+exit=0
+{"hash":"sha256-7QYjT2vHLuX9Z1pdxHXDKCbh1CR3D/2rywB9Tx0MPRg=","rev":"c043004d1c6985732bcc1cbc5a9c9aecbbb4e0f0"}

@@ -1,0 +1,2 @@
+error: contract broken by the value of `rank_order`
+campaign contract: rank index must be an integer in 0..=4294967295

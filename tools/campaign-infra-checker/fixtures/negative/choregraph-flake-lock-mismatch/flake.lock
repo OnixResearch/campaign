@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "choregraph-history": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1787243576,
+        "narHash": "sha256-BO/AlwJBIuW+WXGRQgd2LymvGIYtK0fqd3YYMDtfGBw=",
+        "ref": "refs/heads/main",
+        "rev": "0809c9f10ba48b8ae0192ab3a29ff4c5b335e56e",
+        "revCount": 69,
+        "type": "git",
+        "url": "https://git.onix.computer/zL2ncTUeASVYwcoGkEXv9JKgGbAF.git"
+      },
+      "original": {
+        "rev": "b3e08e19750f53bdbcae970cdf58a47a791ed20b",
+        "type": "git",
+        "url": "https://git.onix.computer/zL2ncTUeASVYwcoGkEXv9JKgGbAF.git"
+      }
+    },
+    "root": {
+      "inputs": {
+        "choregraph-history": "choregraph-history"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

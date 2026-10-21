@@ -1,0 +1,2 @@
+error: contract broken by the value of `penalty_per_selection`
+campaign contract: decay penalty_per_selection must be an integer in 1..=18446744073709551615

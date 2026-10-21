@@ -1,0 +1,12 @@
+[package]
+name = "campaign-core"
+
+[dependencies]
+blake3.workspace = true
+
+[dev-dependencies]
+proptest = "1"
+
+[[test]]
+name = "ambient"
+path = "../campaign-choregraph/tests/ambient.rs"

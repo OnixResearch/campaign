@@ -1,0 +1,6 @@
+let Contracts = import "../../contracts.ncl" in
+let Entry = import "../valid-entry.ncl" in
+{
+  schema = Contracts.constants.schema_sources,
+  sources = [Entry, std.record.update "id" "fixture-other" (std.record.update "license" Contracts.constants.no_assertion Entry)],
+} | Contracts.Inventory

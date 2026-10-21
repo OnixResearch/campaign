@@ -1,0 +1,9 @@
+[package]
+name = "campaign-core"
+build = "../../tools/build.rs"
+
+[dependencies]
+blake3.workspace = true
+
+[dev-dependencies]
+proptest = "1"

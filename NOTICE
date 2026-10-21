@@ -1,0 +1,51 @@
+Campaign
+Copyright (c) 2026 OnixResearch
+
+Current owned-source grant
+--------------------------
+The operator authorized AGPL-3.0-or-later for current and new owned material.
+Except for the material listed below, all Campaign packages, code, tests,
+fixtures, contracts, schemas, configuration, policy, lifecycle material, and
+documentation in this repository are licensed under the GNU Affero General
+Public License, version 3 or (at your option) any later version. The complete
+version 3 text is in LICENSE. Cargo members inherit the workspace license.
+
+This material is distributed without any warranty; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See LICENSE.
+
+Historical grants
+-----------------
+Earlier revisions of this repository were offered under MIT OR Apache-2.0.
+LICENSE-MIT and LICENSE-APACHE preserve those texts and their attribution.
+This grant does not revoke them. Content that an earlier grant already covers,
+including byte-identical content retained here, remains available under it.
+The historical texts do not license new owned contributions.
+
+Material this grant does not relicense
+--------------------------------------
+Choregraph: campaign-choregraph, and campaign-conformance through it, depend
+on the choregraph-history package. Cargo.toml and flake.nix pin it by Git
+revision; no Choregraph source is copied into this repository. Choregraph
+keeps its own AGPL-3.0-or-later license and notices. The owner grant recorded
+in provenance/CHOREGRAPH-PUBLICATION.md does not extend to recipients, who
+receive Choregraph under its public license.
+
+Cairn policy: the files listed in cairn-policy/source-manifest.ncl are
+byte-identical copies of Cairn lifecycle policy files. They keep Cairn's
+terms. Cairn's cairn-policy/LICENSING.md offers these exact bytes under
+AGPL-3.0-or-later OR MIT OR Apache-2.0. A public copy of that grant is in
+Cairn's source export at https://github.com/OnixResearch/cairn-public.
+
+Registry crates: crates resolved from crates.io and recorded in Cargo.lock
+keep their own licenses and notices.
+
+Reference sources: the reference_only entries in provenance/sources.ncl
+informed Campaign's design, and no code from them is copied here.
+provenance/sources.ncl records their licenses.
+
+Source identities, revisions, and pins recorded under provenance/ are
+historical facts. This grant does not change them.
+
+This file states license scope. It is not legal advice and does not determine
+the license of a combined work. It does not publish a revision or establish
+release readiness.

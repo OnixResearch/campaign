@@ -1,0 +1,5 @@
+[octet]
+core_source_scopes = [
+  "crates/campaign-core/src/",
+  "crates/campaign-choregraph/src/",
+]

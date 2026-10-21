@@ -1,0 +1,2 @@
+error: contract broken by the value of `receipt_non_claims`
+campaign contract: receipt_non_claims must list every receipt non-claim exactly once

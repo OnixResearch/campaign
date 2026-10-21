@@ -1,0 +1,2 @@
+error: contract broken by a value
+campaign contract: selection.decay penalty_per_selection * (bounds.maximum_selections - 1) + min(bounds.maximum_rank_magnitude, 2^63) must not exceed 2^63

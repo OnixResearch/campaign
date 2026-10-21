@@ -1,0 +1,24 @@
+relative exists  .cairn/archive/2026-09-26-build-campaign-core/verification.md
+relative exists  provenance/CHOREGRAPH-PUBLICATION.md
+relative exists  provenance/sources.ncl
+relative exists  provenance/consumers.ncl
+relative exists  provenance/OCTET-ACCEPTANCE.md
+web      200  https://rustup.rs/
+web      200  https://github.com/OnixResearch/cairn-public
+web      200  https://github.com/OnixResearch/octet-public
+relative exists  LICENSE
+relative exists  NOTICE
+relative exists  LICENSE-MIT
+relative exists  LICENSE-APACHE
+web      200  https://github.com/OnixResearch/choregraph/tree/b3e08e19750f53bdbcae970cdf58a47a791ed20b
+web      200  https://github.com/brittonr/chaoscontrol
+web      200  https://github.com/OnixResearch/lattice
+web      200  https://github.com/mbrock/luv/blob/638390086d236a383acd8f9eb98dea452d91ea2c/wiki/frontier-traversals.org
+web      200  https://github.com/multikernel/branching/tree/b0778564fbc75eb82a61687d211ee6050f9750bf
+clone    answered  https://git.onix.computer/zL2ncTUeASVYwcoGkEXv9JKgGbAF.git
+clone    answered  https://seed.radicle.garden/z2scC9MCm3pxk9mX4FEidRKabQ5LN.git
+clone    answered  https://seed.radicle.garden/z4Tky6zvC8w4Y6c4YBzNxVbq5n752.git
+--- tracked Markdown scan (33 files) ---
+home-text     .cairn/archive/2026-09-26-build-campaign-core/evidence/final-gate.md:17
+home-text     .cairn/changes/prepare-public-source/design.md:132
+2 hits

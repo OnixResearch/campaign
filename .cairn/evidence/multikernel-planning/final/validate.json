@@ -1,0 +1,209 @@
+{
+  "schema_version": "cairn.cli-machine.v1",
+  "ok": true,
+  "command": "validate",
+  "exit_class": "success",
+  "result": {
+    "change_issues": [],
+    "changes": 2,
+    "cross_repo_dependencies": [],
+    "cross_repo_evidence_issues": [],
+    "findings": [],
+    "issues": [],
+    "layout": "cairn",
+    "policy": "cairn-default",
+    "profile_issues": [],
+    "resolution": {
+      "diagnostics": [],
+      "locator_consulted": false,
+      "registry_lookup": "local_locator_only",
+      "selected": {
+        "project_identity": null,
+        "root": ".",
+        "source": "explicit_root",
+        "store_id": null,
+        "store_identity": null
+      },
+      "valid": true
+    },
+    "spec_findings": [],
+    "spec_issues": [],
+    "spec_substance": [
+      {
+        "path": "./.cairn/changes/build-campaign-core/specs/campaign/spec.md",
+        "requirement_blocks": 31,
+        "scenario_blocks": 93,
+        "substantive_requirement_blocks": 31
+      },
+      {
+        "path": "./.cairn/changes/frontier-operational-discipline/specs/frontier-operational-discipline/spec.md",
+        "requirement_blocks": 9,
+        "scenario_blocks": 12,
+        "substantive_requirement_blocks": 9
+      }
+    ],
+    "specs_validated": 2,
+    "substance": [
+      {
+        "checkbox_tasks": 0,
+        "kind": "design",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/build-campaign-core/design.md",
+        "requirement_blocks": 0,
+        "scenario_blocks": 0,
+        "substantive_lines": 109,
+        "substantive_requirement_blocks": 0,
+        "substantive_tasks": 0,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 0
+      },
+      {
+        "checkbox_tasks": 0,
+        "kind": "proposal",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/build-campaign-core/proposal.md",
+        "requirement_blocks": 0,
+        "scenario_blocks": 0,
+        "substantive_lines": 21,
+        "substantive_requirement_blocks": 0,
+        "substantive_tasks": 0,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 0
+      },
+      {
+        "checkbox_tasks": 0,
+        "kind": "delta_spec",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/build-campaign-core/specs/campaign/spec.md",
+        "requirement_blocks": 31,
+        "scenario_blocks": 93,
+        "substantive_lines": 333,
+        "substantive_requirement_blocks": 31,
+        "substantive_tasks": 0,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 0
+      },
+      {
+        "checkbox_tasks": 44,
+        "kind": "tasks",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/build-campaign-core/tasks.md",
+        "requirement_blocks": 0,
+        "scenario_blocks": 0,
+        "substantive_lines": 44,
+        "substantive_requirement_blocks": 0,
+        "substantive_tasks": 44,
+        "task_done": 3,
+        "task_in_progress": 0,
+        "task_todo": 41
+      },
+      {
+        "checkbox_tasks": 0,
+        "kind": "design",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/frontier-operational-discipline/design.md",
+        "requirement_blocks": 0,
+        "scenario_blocks": 0,
+        "substantive_lines": 46,
+        "substantive_requirement_blocks": 0,
+        "substantive_tasks": 0,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 0
+      },
+      {
+        "checkbox_tasks": 0,
+        "kind": "proposal",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/frontier-operational-discipline/proposal.md",
+        "requirement_blocks": 0,
+        "scenario_blocks": 0,
+        "substantive_lines": 14,
+        "substantive_requirement_blocks": 0,
+        "substantive_tasks": 0,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 0
+      },
+      {
+        "checkbox_tasks": 0,
+        "kind": "delta_spec",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/frontier-operational-discipline/specs/frontier-operational-discipline/spec.md",
+        "requirement_blocks": 9,
+        "scenario_blocks": 12,
+        "substantive_lines": 49,
+        "substantive_requirement_blocks": 9,
+        "substantive_tasks": 0,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 0
+      },
+      {
+        "checkbox_tasks": 18,
+        "kind": "tasks",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/frontier-operational-discipline/tasks.md",
+        "requirement_blocks": 0,
+        "scenario_blocks": 0,
+        "substantive_lines": 18,
+        "substantive_requirement_blocks": 0,
+        "substantive_tasks": 18,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 18
+      }
+    ],
+    "substance_findings": [],
+    "substance_issues": [],
+    "valid": true,
+    "workflow_profiles": [
+      {
+        "acceptance_ids": [],
+        "non_claims": [
+          "workflow state proves only the selected policy graph and observed structural artifact facts",
+          "workflow instructions do not prove artifact truth, review quality, or implementation correctness",
+          "workflow state does not satisfy proposal, design, tasks, sync, archive, evidence, or release gates",
+          "workflow commands are read-only and do not create, edit, delete, or approve lifecycle artifacts",
+          "assurance profile conformance does not prove risk-analysis truth, test sufficiency, code correctness, or release eligibility"
+        ],
+        "profile_identity_hash": "ef879aa16227553e27bb09f2c032e6512511b418bbef6c46a665c4c258509301",
+        "review_receipt_hashes": [
+          "5f7ce90b9a1c111185e2c093331028eecdc342e867b5a81045d04a500dba0072"
+        ],
+        "spec_effect": "delta",
+        "workflow_profile": "assurance",
+        "workflow_profile_compatibility_fallback": false,
+        "workflow_profile_source": "change_create",
+        "workflow_profile_version": 1
+      },
+      {
+        "acceptance_ids": [],
+        "non_claims": [
+          "workflow state proves only the selected policy graph and observed structural artifact facts",
+          "workflow instructions do not prove artifact truth, review quality, or implementation correctness",
+          "workflow state does not satisfy proposal, design, tasks, sync, archive, evidence, or release gates",
+          "workflow commands are read-only and do not create, edit, delete, or approve lifecycle artifacts"
+        ],
+        "profile_identity_hash": "07c9e53273380f4f517723ad6257824d673a79654640d443de963c345c24d3f5",
+        "review_receipt_hashes": [],
+        "spec_effect": "delta",
+        "workflow_profile": "spec-driven",
+        "workflow_profile_compatibility_fallback": false,
+        "workflow_profile_source": "change_create",
+        "workflow_profile_version": 1
+      }
+    ]
+  },
+  "diagnostics": [],
+  "non_claims": [
+    "a valid machine envelope proves only that Cairn reached the controlled output boundary and serialized one typed outcome",
+    "a machine envelope does not prove nested evidence truth or command correctness",
+    "a machine envelope does not prove mutation safety, process reliability, or host integrity",
+    "a machine envelope does not prove lifecycle readiness or release eligibility",
+    "no envelope is guaranteed after host termination, process kill, memory exhaustion, pre-boundary panic, broken stdout, or failure before Cairn starts"
+  ]
+}

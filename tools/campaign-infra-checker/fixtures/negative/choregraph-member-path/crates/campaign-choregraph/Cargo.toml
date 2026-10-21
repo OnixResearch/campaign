@@ -1,0 +1,6 @@
+[package]
+name = "campaign-choregraph"
+
+[dependencies]
+campaign-core.workspace = true
+choregraph-history = { path = "../../../choregraph/crates/choregraph-history" }

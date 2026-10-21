@@ -1,0 +1,134 @@
+{
+  "consumers": [
+    {
+      "adapter": "crates/campaign-conformance/src/lib.rs",
+      "conformance": {
+        "command": "fixture conformance command",
+        "fixtures": 3,
+        "reordered_profile_digest": "0000000000000000000000000000000000000000000000000000000000000002",
+        "transcript_digest": "0000000000000000000000000000000000000000000000000000000000000001"
+      },
+      "id": "fixture-pilot",
+      "kind": "in_repo_fixture",
+      "non_claims": [
+        "fixture non-claim"
+      ],
+      "retained_authority": [
+        "execution",
+        "evidence"
+      ],
+      "tests": [
+        "crates/campaign-core/src/tests.rs"
+      ]
+    },
+    {
+      "adoption": {
+        "branch": "fixture-branch",
+        "change": "adopt-fixture",
+        "commit": "0123456789abcdef0123456789abcdef01234567"
+      },
+      "conformance": {
+        "command": "fixture conformance command",
+        "fixtures": 3,
+        "reordered_profile_digest": "0000000000000000000000000000000000000000000000000000000000000002",
+        "transcript_digest": "0000000000000000000000000000000000000000000000000000000000000001"
+      },
+      "id": "fixture-consumer",
+      "kind": "migrated_consumer",
+      "kvm_smoke": {
+        "bounds": {
+          "branches": 4,
+          "memory_mb": 128,
+          "mode": "fixture-mode",
+          "rounds": 5,
+          "seed": 0,
+          "ticks": 500,
+          "vms": 1
+        },
+        "receipt": {
+          "blake3": "0000000000000000000000000000000000000000000000000000000000000003",
+          "path": "evidence/fixture.json"
+        },
+        "record": {
+          "blake3": "0000000000000000000000000000000000000000000000000000000000000003",
+          "path": "evidence/fixture.json"
+        }
+      },
+      "non_claims": [
+        "fixture non-claim"
+      ],
+      "parity": {
+        "agreeing_decision_classes": [
+          {
+            "class": "candidate_order",
+            "compared_fields": [
+              "SelectedEntry"
+            ]
+          },
+          {
+            "class": "selected_parents",
+            "compared_fields": [
+              "ParentMoment"
+            ]
+          },
+          {
+            "class": "priority_results",
+            "compared_fields": [
+              "RetainedScores"
+            ]
+          },
+          {
+            "class": "pruning",
+            "compared_fields": [
+              "Pruned"
+            ]
+          },
+          {
+            "class": "budget_use",
+            "compared_fields": [
+              "SelectionUse"
+            ]
+          },
+          {
+            "class": "stop_classes",
+            "compared_fields": [
+              "StopClass"
+            ]
+          }
+        ],
+        "corpus_tests": "src/parity/tests.rs",
+        "cutover_ready": true,
+        "receipt": {
+          "blake3": "0000000000000000000000000000000000000000000000000000000000000003",
+          "path": "evidence/fixture.json"
+        }
+      },
+      "pins": {
+        "cargo_campaign_revision": "1111111111111111111111111111111111111111",
+        "choregraph_revision": "b3e08e19750f53bdbcae970cdf58a47a791ed20b",
+        "nix_campaign_revision": "3333333333333333333333333333333333333333"
+      },
+      "repository": "https://example.invalid/reference.git",
+      "retained_authority": [
+        "execution",
+        "snapshot",
+        "coverage",
+        "fault",
+        "assertion",
+        "finding",
+        "replay",
+        "minimization",
+        "evidence"
+      ]
+    }
+  ],
+  "reordered_profile": {
+    "exploration_order": [
+      1
+    ],
+    "retention_rank_order": [
+      1
+    ]
+  },
+  "schema": "campaign.consumers.v1"
+}

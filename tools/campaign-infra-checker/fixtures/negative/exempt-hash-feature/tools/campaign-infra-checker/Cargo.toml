@@ -1,0 +1,6 @@
+[package]
+name = "campaign-infra-checker"
+
+[dependencies]
+blake3 = { version = "1.8.7", features = ["mmap"] }
+toml = "0.9.7"

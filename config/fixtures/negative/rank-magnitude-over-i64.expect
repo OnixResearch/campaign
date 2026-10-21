@@ -1,0 +1,2 @@
+error: contract broken by the value of `maximum_rank_magnitude`
+campaign contract: bounds.maximum_rank_magnitude must be an integer in 1..=9223372036854775807

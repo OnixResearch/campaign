@@ -1,0 +1,13 @@
+[package]
+name = "campaign-conformance"
+
+[dependencies]
+campaign-core.workspace = true
+campaign-choregraph = { path = "../campaign-choregraph", default-features = false }
+
+[dev-dependencies]
+choregraph-history.workspace = true
+
+[[bin]]
+name = "tool"
+path = "tool.rs"

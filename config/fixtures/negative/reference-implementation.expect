@@ -1,0 +1,2 @@
+error: contract broken by the value of `implementation`
+campaign contract: implementation must be one of the declared enum tags

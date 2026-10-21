@@ -1,0 +1,5 @@
+[source.crates-io]
+replace-with = "ambient"
+
+[source.ambient]
+directory = "../universal-weave/vendor"

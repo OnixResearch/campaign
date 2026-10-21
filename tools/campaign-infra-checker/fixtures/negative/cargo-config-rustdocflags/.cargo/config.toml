@@ -1,0 +1,5 @@
+[host]
+linker = "cc"
+
+[build]
+rustdocflags = ["--extern", "topology=../universal-weave/libuniversal_weave.rlib"]

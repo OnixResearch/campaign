@@ -1,0 +1,49 @@
+{
+  "schema": "campaign.provenance.v1",
+  "sources": [
+    {
+      "id": "choregraph-history",
+      "repository": "https://git.onix.computer/zL2ncTUeASVYwcoGkEXv9JKgGbAF.git",
+      "revision": "b3e08e19750f53bdbcae970cdf58a47a791ed20b",
+      "license": "AGPL-3.0-or-later",
+      "owner": "fixture owner",
+      "adoption": "dependency",
+      "reviewed_files": [
+        "README.md"
+      ],
+      "adopted_mechanisms": [
+        "fixture mechanism"
+      ],
+      "campaign_paths": [
+        "Cargo.toml",
+        "crates/campaign-choregraph"
+      ],
+      "retained_authority": "fixture authority",
+      "non_adoption": [
+        "fixture non-adoption"
+      ],
+      "notes": []
+    },
+    {
+      "id": "fixture-reference",
+      "repository": "https://example.invalid/reference.git",
+      "revision": "0123456789abcdef0123456789abcdef01234567",
+      "license": "NOASSERTION",
+      "owner": "fixture owner",
+      "adoption": "reference_only",
+      "reviewed_files": [
+        "README.md"
+      ],
+      "adopted_mechanisms": [
+        "fixture mechanism"
+      ],
+      "campaign_paths": [
+        "crates/campaign-core/src/policy"
+      ],
+      "non_adoption": [
+        "fixture non-adoption"
+      ],
+      "notes": []
+    }
+  ]
+}

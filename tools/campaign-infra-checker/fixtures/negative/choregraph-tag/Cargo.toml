@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/campaign-core",
+  "crates/campaign-choregraph",
+  "crates/campaign-conformance",
+  "crates/campaign-profile",
+  "tools/campaign-infra-checker",
+]
+
+[workspace.package]
+repository = "https://git.onix.computer/z2scC9MCm3pxk9mX4FEidRKabQ5LN.git"
+
+[workspace.dependencies]
+campaign-core = { path = "crates/campaign-core", default-features = false }
+blake3 = { version = "1.8.2", default-features = false }
+choregraph-history = { git = "https://git.onix.computer/zL2ncTUeASVYwcoGkEXv9JKgGbAF.git", tag = "v0.1.0", default-features = false }

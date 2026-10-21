@@ -1,0 +1,2 @@
+error: contract broken by a value
+campaign contract: selection.exploration_order indices must be below bounds.maximum_rank_dimensions

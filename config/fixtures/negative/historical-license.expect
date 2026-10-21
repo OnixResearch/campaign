@@ -1,0 +1,2 @@
+error: contract broken by the value of `license`
+campaign contract: repository license must equal the pinned value AGPL-3.0-or-later

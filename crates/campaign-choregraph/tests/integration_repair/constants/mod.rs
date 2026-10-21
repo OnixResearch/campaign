@@ -1,0 +1,16 @@
+pub(crate) const MAX_EVENTS: u32 = 16;
+pub(crate) const MAX_METADATA: u32 = 3;
+pub(crate) const MAX_LABEL_BYTES: u32 = 64;
+pub(crate) const HISTORY_MAX_PARENTS: u32 = 2;
+pub(crate) const MODEL_BOUND: u64 = 16;
+pub(crate) const RESOURCE_BUDGET: u64 = 8;
+pub(crate) const CANDIDATE_RANK: i64 = 10;
+pub(crate) const BRANCH_EVENT_INCREMENT: u64 = 1;
+pub(crate) const ROOT_GENERATION: u64 = 0;
+pub(crate) const ROOT_BRANCH_GENERATION: u64 = 1;
+pub(crate) const FIRST_ORDINAL: u64 = 1;
+pub(crate) const SECOND_ORDINAL: u64 = 2;
+pub(crate) const FIRST_ROOT_INDEX: usize = 0;
+pub(crate) const FIRST_RESOURCE_INDEX: usize = 0;
+pub(crate) const RANK_MAGNITUDE: u64 = 1_000_000;
+pub(crate) const TAMPERED_ORDINAL: u64 = 99;

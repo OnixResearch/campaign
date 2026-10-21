@@ -1,0 +1,66 @@
+{
+  "schema_version": "cairn.cli-machine.v1",
+  "ok": true,
+  "command": "archive",
+  "exit_class": "success",
+  "result": {
+    "acceptance_ids": [],
+    "actions": [],
+    "blocked": true,
+    "change": "build-campaign-core",
+    "cross_repo_dependencies": {
+      "blocked_count": 0,
+      "dependency_count": 0,
+      "input_hash": "e890d3bebd6f9f984387d26d4c6685963b96d2172fdf1df42756927cfa255a9c",
+      "non_claims": [
+        "dependency satisfaction proves presented receipt linkage only",
+        "dependency satisfaction does not prove upstream correctness or remote trust",
+        "dependency satisfaction does not prove downstream integration correctness or release eligibility"
+      ],
+      "policy_hash": "8280151b7a53822eed460149ecb600bf11418d7463c935e0742009b334f4e7dd",
+      "receipt_hash": "b37bae535823028673cb011a8f08a9b26fbfca1414a5b5141892f75699ce5c01",
+      "rows": [],
+      "satisfied_count": 0,
+      "schema": "cairn.cross-repo-dependency-receipt.v1",
+      "valid": true,
+      "verdict": "PASS"
+    },
+    "cross_repo_evidence_issues": [],
+    "dry_run": true,
+    "input_hash": "633352c6a15f6f1f89257e9a8f6636fe237968e1f7e7e68ac58a57c544730499",
+    "layout": "cairn",
+    "mutated": false,
+    "mutation_manifest": null,
+    "non_claims": [
+      "workflow state proves only the selected policy graph and observed structural artifact facts",
+      "workflow instructions do not prove artifact truth, review quality, or implementation correctness",
+      "workflow state does not satisfy proposal, design, tasks, sync, archive, evidence, or release gates",
+      "workflow commands are read-only and do not create, edit, delete, or approve lifecycle artifacts",
+      "assurance profile conformance does not prove risk-analysis truth, test sufficiency, code correctness, or release eligibility"
+    ],
+    "plan_hash": "88d1992a31ba1d6d670819bf63b8f215fb415746ecab460ab18fc98d37a2cb30",
+    "policy": "cairn-default",
+    "policy_hash": "8280151b7a53822eed460149ecb600bf11418d7463c935e0742009b334f4e7dd",
+    "profile_identity_hash": "ef879aa16227553e27bb09f2c032e6512511b418bbef6c46a665c4c258509301",
+    "reasons": [
+      "build-campaign-core: tasks not archive-ready (todo: 41, in_progress: 0, unmarked: 0)"
+    ],
+    "receipt_hash": "228eac66644b21d55c0ac073f5380ac057cb851603bf60e7ea796692eceb796f",
+    "review_receipt_hashes": [
+      "5f7ce90b9a1c111185e2c093331028eecdc342e867b5a81045d04a500dba0072"
+    ],
+    "spec_effect": "delta",
+    "workflow_profile": "assurance",
+    "workflow_profile_compatibility_fallback": false,
+    "workflow_profile_source": "change_create",
+    "workflow_profile_version": 1
+  },
+  "diagnostics": [],
+  "non_claims": [
+    "a valid machine envelope proves only that Cairn reached the controlled output boundary and serialized one typed outcome",
+    "a machine envelope does not prove nested evidence truth or command correctness",
+    "a machine envelope does not prove mutation safety, process reliability, or host integrity",
+    "a machine envelope does not prove lifecycle readiness or release eligibility",
+    "no envelope is guaranteed after host termination, process kill, memory exhaustion, pre-boundary panic, broken stdout, or failure before Cairn starts"
+  ]
+}

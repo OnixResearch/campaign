@@ -1,0 +1,2 @@
+error: contract broken by a value
+campaign contract: stopping.finding_limit must not exceed bounds.maximum_finding_records

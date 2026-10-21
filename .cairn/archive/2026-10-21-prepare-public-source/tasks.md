@@ -1,0 +1,18 @@
+## Phase 1: License grant
+
+- [x] [serial] Replace `LICENSE` with the complete GNU AGPL version 3 text. Add `NOTICE` with the copyright line, the grant, the no-warranty statement, the retained historical grants, and the terms of the Choregraph dependency, the copied Cairn policy files, and registry crates. Keep `LICENSE-MIT` and `LICENSE-APACHE` byte-identical. a[prepare-public-source.license] a[prepare-public-source.retained-terms]
+- [x] [serial] Change the Cargo workspace license, `config/repository.ncl`, the pinned repository-license contract value, and the exported repository projection to `AGPL-3.0-or-later` together. Add the `historical-license` negative configuration fixture and its expectation. a[prepare-public-source.license]
+- [x] [serial] Update the README License section, and add to `provenance/SOURCE.md` the sentence on Campaign's own license and the owner grant. Cite uninventoried revisions only in abbreviated form, with the file that pins them. a[prepare-public-source.license] a[prepare-public-source.retained-terms] a[prepare-public-source.references]
+
+## Phase 2: Public documentation
+
+- [x] [parallel] Add to the README the credential-free Cargo and Nickel checks with their tool sources (rustup, and Nickel from the locked nixpkgs read with `jq`), the optional `CHOREGRAPH_HISTORY_SOURCE` comparison, the private and SSH-only prerequisites of the complete gate, dev shell, and pre-commit hook, and the scripts that need private tools (`scripts/check.sh`, `scripts/check-cairn.sh`, `scripts/check-rust-gates.sh`). a[prepare-public-source.public-checks]
+- [x] [parallel] Replace workspace-relative and private README links, show Git clone routes as code, and state the canonical Radicle source. Replace the operator-local path and the published claim in `cairn-policy/UPSTREAM.md`. a[prepare-public-source.references]
+
+## Phase 3: Verification and handoff
+
+- [x] [serial] Positive: under every isolation condition, on a tree exported from the prepared revision, run the documented credential-free checks with the documented tools (rustup installing the pinned toolchain into the empty home, and Nickel from the documented `nix shell` command). Then run the complete `nix flake check -L` from a clean `path:` export, and run Cairn validation, traceability, and the proposal, design, and tasks gates. a[prepare-public-source.public-checks] a[prepare-public-source.license]
+- [x] [serial] Negative: confirm the historical-license fixture fails with the pinned message. Confirm that every private or SSH-only input is refused at its exact locked URL, with SSH configuration, identities, and agent bypassed, while a public control succeeds. a[prepare-public-source.license] a[prepare-public-source.public-checks]
+- [x] [serial] Confirm `LICENSE` matches the FSF AGPL text. Confirm `git diff --exit-code` against the base is empty for every path outside the Impact list, and that `Cargo.toml` and the repository-configuration files change only license lines. Review `NOTICE` against the license and retained-terms criteria. a[prepare-public-source.retained-terms] a[prepare-public-source.license]
+- [x] [serial] Run gitleaks over the exported tree, the publication commit set, and all local refs, and record the version and commit counts. Resolve every README link by type, and scan tracked Markdown for out-of-repository relative links, operator paths, and refused hosts. a[prepare-public-source.references] a[prepare-public-source.handoff]
+- [x] [serial] Record the verified revision, isolation conditions, commands, scopes, results, and unperformed publication effects in `evidence/verification.md` without publishing. a[prepare-public-source.handoff]

@@ -1,0 +1,2 @@
+error: contract broken by the value of `history_revision`
+campaign contract: choregraph.history_revision must equal the pinned value b3e08e19750f53bdbcae970cdf58a47a791ed20b

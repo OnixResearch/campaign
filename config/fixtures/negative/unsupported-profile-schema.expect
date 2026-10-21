@@ -1,0 +1,2 @@
+error: contract broken by the value of `schema`
+campaign contract: profile schema must equal the pinned value campaign.profile.v2

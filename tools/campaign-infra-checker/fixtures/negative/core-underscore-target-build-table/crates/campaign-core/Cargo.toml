@@ -1,0 +1,11 @@
+[package]
+name = "campaign-core"
+
+[dependencies]
+blake3.workspace = true
+
+[dev-dependencies]
+proptest = "1"
+
+[target.'cfg(unix)'.build_dependencies]
+universal-weave = "0.1"

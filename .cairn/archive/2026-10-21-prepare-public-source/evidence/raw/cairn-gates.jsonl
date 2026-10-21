@@ -1,0 +1,6 @@
+{"cairn_binary": "/nix/store/1cdyx7zv4mjp5rhkhb9ahnly56774ijg-cairn-0.1.0/bin/cairn", "cairn_blake3": "1c13f865963662a7a1dd96d0920e20e4975e628b5adf7890ad2952f77bc3dd09"}
+{"command":"cairn gate proposal prepare-public-source","verdict":"PASS","valid":true,"issues":0,"receipt_hash":"26ceebe666f931a19f94786b41260bf5e97f747c5d054e3cde633bd44b88b3a2","policy_hash":"c8276321e0e82c524e09ad9357fa48a9d38ac8590263ee6f79c51a328dc6037d"}
+{"command":"cairn gate design prepare-public-source","verdict":"PASS","valid":true,"issues":0,"receipt_hash":"cfa26b6ca646cd9283dd88db7408b361ec380232ca761aa02ccdd1700c16c15b","policy_hash":"c8276321e0e82c524e09ad9357fa48a9d38ac8590263ee6f79c51a328dc6037d"}
+{"command":"cairn gate tasks prepare-public-source","verdict":"PASS","valid":true,"issues":0,"receipt_hash":"b1b7d0d611ef597adcb734b7b8ee613342079d417dfa324eabc11a45449c4677","policy_hash":"c8276321e0e82c524e09ad9357fa48a9d38ac8590263ee6f79c51a328dc6037d"}
+{"command": "cairn validate --strict", "exit": 0}
+{"command":"cairn traceability coverage","valid":true,"verdict":"pass","requirements":180,"missing":0,"dangling":0,"receipt_hash":"77edd74279584768d4ab057082c9d589c2f6452775189eaa05798f102030762d"}

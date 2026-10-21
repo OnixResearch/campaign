@@ -1,0 +1,8 @@
+[package]
+name = "campaign-core"
+
+[dependencies]
+blake3.workspace = true
+
+[dev-dependencies]
+proptest = "1"

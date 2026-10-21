@@ -1,0 +1,2 @@
+error: contract broken by the value of `mode`
+campaign contract: selection.mode must be one of the declared enum tags

@@ -1,0 +1,25 @@
+[package]
+name = "campaign-infra-checker"
+description = "Campaign acceptance infrastructure checker"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+proc-macro2 = "1.0.107"
+serde_json = "1.0.151"
+toml = "0.9.7"
+syn = { version = "3.0.5", features = ["full", "visit"] }
+
+[dev-dependencies]
+tempfile = "3.23.0"
+
+[[bin]]
+name = "campaign-infra-checker"
+path = "src/main.rs"

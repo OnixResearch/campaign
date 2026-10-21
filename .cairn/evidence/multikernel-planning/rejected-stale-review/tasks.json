@@ -1,0 +1,136 @@
+{
+  "schema_version": "cairn.cli-machine.v1",
+  "ok": true,
+  "command": "gate",
+  "exit_class": "success",
+  "result": {
+    "acceptance_ids": [],
+    "change": "build-campaign-core",
+    "evidence_summary": {
+      "docs_only": 0,
+      "fixture": 0,
+      "formal": 0,
+      "mode": "advisory",
+      "model": 0,
+      "probe": 0,
+      "property": 0
+    },
+    "input_hash": "ebc93bf82dc1fa92a39bcbfa6754f5c701587a2c85f36407fd880db08c634b82",
+    "issues": [
+      {
+        "code": "cairn.workflow.profile.artifact",
+        "message": "workflow profile artifact is not structurally complete: assurance-review (blocked)",
+        "promoted": "no",
+        "scope": "tasks"
+      },
+      {
+        "code": "cairn.workflow.profile.review",
+        "message": "workflow review is invalid or not approved: assurance-plan-review",
+        "promoted": "no",
+        "scope": "tasks"
+      }
+    ],
+    "layout": "cairn",
+    "non_claims": [
+      "workflow state proves only the selected policy graph and observed structural artifact facts",
+      "workflow instructions do not prove artifact truth, review quality, or implementation correctness",
+      "workflow state does not satisfy proposal, design, tasks, sync, archive, evidence, or release gates",
+      "workflow commands are read-only and do not create, edit, delete, or approve lifecycle artifacts",
+      "assurance profile conformance does not prove risk-analysis truth, test sufficiency, code correctness, or release eligibility"
+    ],
+    "policy": "cairn-default",
+    "policy_hash": "8280151b7a53822eed460149ecb600bf11418d7463c935e0742009b334f4e7dd",
+    "probe_evidence": {
+      "declarations_present": false,
+      "probes": []
+    },
+    "profile_identity_hash": "7c7f6635d13e414a048e6b72354ef761b18fa8635a847bc3cfcd210e38bd7e8d",
+    "receipt_hash": "32eac84c86dd80a96e3554313bbe4c67f0610c2d61410dbccd04ee33732a3cb5",
+    "review_receipt_hashes": [
+      "4e76e1f3c5fbb9b450f1af7ffec3250296b68429354f3034fec9b5b211b6ac1a"
+    ],
+    "spec_effect": "delta",
+    "stage": "tasks",
+    "substance": [
+      {
+        "checkbox_tasks": 0,
+        "kind": "design",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/build-campaign-core/design.md",
+        "requirement_blocks": 0,
+        "scenario_blocks": 0,
+        "substantive_lines": 109,
+        "substantive_requirement_blocks": 0,
+        "substantive_tasks": 0,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 0
+      },
+      {
+        "checkbox_tasks": 0,
+        "kind": "proposal",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/build-campaign-core/proposal.md",
+        "requirement_blocks": 0,
+        "scenario_blocks": 0,
+        "substantive_lines": 21,
+        "substantive_requirement_blocks": 0,
+        "substantive_tasks": 0,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 0
+      },
+      {
+        "checkbox_tasks": 0,
+        "kind": "delta_spec",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/build-campaign-core/specs/campaign/spec.md",
+        "requirement_blocks": 31,
+        "scenario_blocks": 93,
+        "substantive_lines": 333,
+        "substantive_requirement_blocks": 31,
+        "substantive_tasks": 0,
+        "task_done": 0,
+        "task_in_progress": 0,
+        "task_todo": 0
+      },
+      {
+        "checkbox_tasks": 44,
+        "kind": "tasks",
+        "malformed_dependency_markers": 0,
+        "path": "./.cairn/changes/build-campaign-core/tasks.md",
+        "requirement_blocks": 0,
+        "scenario_blocks": 0,
+        "substantive_lines": 44,
+        "substantive_requirement_blocks": 0,
+        "substantive_tasks": 44,
+        "task_done": 3,
+        "task_in_progress": 0,
+        "task_todo": 41
+      }
+    ],
+    "task_ordering": {
+      "active": false,
+      "edges": [],
+      "issues": [],
+      "nodes": [],
+      "order": [],
+      "ready_tasks": [],
+      "valid": true
+    },
+    "valid": false,
+    "verdict": "FAIL",
+    "workflow_profile": "assurance",
+    "workflow_profile_compatibility_fallback": false,
+    "workflow_profile_source": "change_create",
+    "workflow_profile_version": 1
+  },
+  "diagnostics": [],
+  "non_claims": [
+    "a valid machine envelope proves only that Cairn reached the controlled output boundary and serialized one typed outcome",
+    "a machine envelope does not prove nested evidence truth or command correctness",
+    "a machine envelope does not prove mutation safety, process reliability, or host integrity",
+    "a machine envelope does not prove lifecycle readiness or release eligibility",
+    "no envelope is guaranteed after host termination, process kill, memory exhaustion, pre-boundary panic, broken stdout, or failure before Cairn starts"
+  ]
+}

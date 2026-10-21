@@ -1,0 +1,45 @@
+answered exit=0   https://git.onix.computer/z2CpqLFpdP36fZXYUK5ZNWxMibpCo.git @ 29dac88ecded (Cairn Cargo.lock, flake.lock)
+answered exit=0   https://git.onix.computer/zL2ncTUeASVYwcoGkEXv9JKgGbAF.git @ b3e08e19750f (flake.lock)
+answered exit=0   https://github.com/AeneasVerif/aeneas @ bc2eb6f94136 (flake.lock)
+answered exit=0   https://github.com/AeneasVerif/charon @ cb50ff16b9f1 (flake.lock)
+answered exit=0   https://github.com/aeneasverif/charon @ cb50ff16b9f1 (flake.lock)
+answered exit=0   https://github.com/brittonr/subwayrat.git @ 9d68c69f13ad (Cairn Cargo.lock)
+answered exit=0   https://github.com/cachix/git-hooks.nix @ f0927703b7b1 (flake.lock)
+answered exit=0   https://github.com/edolstra/flake-compat @ ff81ac966bb2 (flake.lock)
+answered exit=0   https://github.com/FStarLang/fstar @ 7c23ae87427d (flake.lock)
+answered exit=0   https://github.com/hercules-ci/gitignore.nix @ 637db329424f (flake.lock)
+answered exit=0   https://github.com/ipetkov/crane @ 69f538cdce59 (flake.lock); b556d7bbae5f (flake.lock); e316f19ee058 (flake.lock)
+answered exit=0   https://github.com/leanprover-community/mathlib4 @ fabf563a7c95 (flake.lock)
+answered exit=0   https://github.com/leanprover/lean4 @ 68218e876d2a (flake.lock)
+answered exit=0   https://github.com/nickel-lang/nickel @ 1320a983e6c3 (flake.lock)
+answered exit=0   https://github.com/nix-systems/default @ da67096a3b9b (flake.lock)
+answered exit=0   https://github.com/NixOS/flake-compat @ 5edf11c44bc7 (flake.lock)
+answered exit=0   https://github.com/NixOS/nixpkgs @ 7df7ff7d8e00 (flake.lock); 9cf7092bdd60 (flake.lock); b3d51a0365f6 (flake.lock); c043004d1c69 (flake.lock)
+answered exit=0   https://github.com/nixos/nixpkgs @ 2fbfb1d73d23 (flake.lock)
+answered exit=0   https://github.com/numtide/flake-utils @ 11707dc2f618 (flake.lock); c1dfcf08411b (flake.lock)
+refused  exit=128 https://github.com/onixresearch/cairn @ 3c470b947807 (flake.lock); 695124d45957 (flake.lock); a22ea2bff65f (flake.lock)
+         -> fatal: could not read Username for 'https://github.com': terminal prompts disabled
+refused  exit=128 https://github.com/OnixResearch/cairn @ 5d5aa7dfc02e (flake.lock)
+         -> fatal: could not read Username for 'https://github.com': terminal prompts disabled
+answered exit=0   https://github.com/OnixResearch/nickel-export @ 257fafc1c746 (Cairn Cargo.lock, Octet Cargo.lock, flake.lock)
+refused  exit=128 https://github.com/OnixResearch/octet @ 890f424cd7b1 (flake.lock)
+         -> fatal: could not read Username for 'https://github.com': terminal prompts disabled
+refused  exit=128 https://github.com/onixresearch/slotcar @ b18a547801df (flake.lock)
+         -> fatal: could not read Username for 'https://github.com': terminal prompts disabled
+refused  exit=128 https://github.com/OnixResearch/slotcar @ 2f8213a88781 (flake.lock)
+         -> fatal: could not read Username for 'https://github.com': terminal prompts disabled
+refused  exit=128 https://github.com/OnixResearch/valence @ 5f1c2ba5072c (flake.lock)
+         -> fatal: could not read Username for 'https://github.com': terminal prompts disabled
+refused  exit=128 https://github.com/OnixResearch/valence.git @ 5f1c2ba5072c (Octet Cargo.lock)
+         -> fatal: could not read Username for 'https://github.com': terminal prompts disabled
+answered exit=0   https://github.com/oxalica/rust-overlay @ 348b94ed9ddf (flake.lock); 4748ec2f5ed4 (flake.lock); 51390d0bfca0 (flake.lock); dc00324a2438 (flake.lock); e013376c32a8 (flake.lock)
+answered exit=0   https://github.com/trailofbits/dylint @ 0e0a71eefe6f (Octet Cargo.lock, flake.lock)
+answered exit=0   https://seed.radicle.garden/z2wsvXm5S2sJGvuV1k5JHiwi1PbKE.git @ 5d99f4e9bb95 (Cairn Cargo.lock, flake.lock)
+answered exit=0   https://seed.radicle.garden/z3cWBCK7VPbEmbL5MAvKJWKjCE745.git @ 8991e2572578 (Cairn Cargo.lock, flake.lock)
+answered exit=0   https://seed.radicle.garden/z3tAR4For7qw8ZirkJzoDw1VNDDLM.git @ 951c27f59003 (Cairn Cargo.lock, flake.lock)
+refused  exit=128 ssh://git@github.com/OnixResearch/bounded-exec.git @ 44eb74eb6391 (Octet Cargo.lock)
+         -> git@github.com: Permission denied (publickey).
+refused  exit=128 ssh://git@github.com/OnixResearch/mantle.git @ 0bbab77e23ab (Cairn Cargo.lock, flake.lock)
+         -> git@github.com: Permission denied (publickey).
+refused  exit=128 ssh://git@github.com/OnixResearch/onix-artifact.git @ e41340bec587 (Cairn Cargo.lock, flake.lock)
+         -> git@github.com: Permission denied (publickey).
